@@ -1,0 +1,11 @@
+button {
+    height:250px;
+    width: 30px;
+    background-color: white;
+    border: 1px black solid;
+}
+.secondary {
+  height: 125px;
+  background-color: black;
+  color: white;
+}
