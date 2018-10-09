@@ -4,59 +4,83 @@ var octave = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 $("document").ready(function writeWhiteKeys() {
 
-  for (var i = 0; i < octave.length; i++) {
-    for (var j = 0; j < chromaticScale.length; j++) {
+  for (var i = 0; i < chromaticScale.length; i++) {
+    if (i < chromaticScale.length) {
+      $(".keyboard").append(`<button value="${chromaticScale[i]}${octave[i]}" id="${chromaticScale[i]}${octave[i]}">${chromaticScale[i]}${octave[i]}</button>`);
 
-      $(".keyboard").append(`<button value="${chromaticScale[i]}${octave[j]}" id="${chromaticScale[i]}${octave[j]}">${chromaticScale[i]}${octave[j]}</button>`);
-
-      
-      // $("button[value*='s']") if attribute value contains "s", $(button).attr("style", "height: 125px; background-color: black; color: white; border: 1px black solid;"); 
+      $("button[value*='s']").attr("style", "height: 125px; background-color: black; color: white; border: 1px black solid;");
     }
+
+
+
   }
 
 
 
+var a1 = $("#A1");
+var as2 = $("#AsBf2");
+var b3 = $("#B3");
+var c4 = $("#C4");
+var cs5 = $("#CsDf5");
+var d6 = $("#D6");
+var ds7 = $("#DsEf7");
+var e8 = $("#E8");
+var f9 = $("#F9");
+var fs10 = $("#FsGf10");
+var g11 = $("#G11");
+var gs12 = $("#GsAf12");
+
+a1.on("click", function a1play() {
+  var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("A2", "8n");
 });
 
-// PIANO KEYS EXPERIMENT WORKING
+as2.on("click", function as2play() {
+  var synth =  new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("A#2", "8n");
+})
 
-// var c4 = $("#c4");
-// var cs4 = $("#cs4");
-// var d4 = $("#d4");
-// var e4 = $("#e4");
-// var f4 = $("#f4");
-// var g4 = $("#g4");
+b3.on("click", function b3play() {
+  var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("B3", "8n");
+})
 
-// c4.addEventListener("click", function c4play() {
-//   var synth = new Tone.Synth().toMaster();
+c4.on("click", function c4play() {
+  var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("C4", "8n");
+});
 
-//   synth.triggerAttackRelease("C4", "8n");
-// });
+cs5.on("click", function cs4play() {
+  var synth = new Tone.Synth().toMaster();
 
-// cs4.addEventListener("click", function cs4play() {
-//   var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("C#5", "8n");
+});
 
-//   synth.triggerAttackRelease("C#4", "8n");
-// });
+d6.on("click", function d6play() {
+  var synth = new Tone.Synth().toMaster();
 
-// d4.addEventListener("click", function d4play() {
-//   var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("d6", "8n");
+});
 
-//   synth.triggerAttackRelease("d4", "8n");
-// });
+e8.on("click", function e8play() {
+  var synth = new Tone.Synth().toMaster();
 
-// e4.addEventListener("click", function e4play() {
-//   var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("e8", "8n");
+});
 
-//   synth.triggerAttackRelease("e4", "8n");
-// });
+f9.on("click", function f9play() {
+  var synth = new Tone.Synth().toMaster();
 
-// f4.addEventListener("click", function f4play() {
-//   var synth = new Tone.Synth().toMaster();
+  synth.triggerAttackRelease("f9", "8n");
+});
 
-//   synth.triggerAttackRelease("f4", "8n");
-// });
+g11.on("click", function g11play() {
+  var synth = new Tone.Synth().toMaster();
 
+  synth.triggerAttackRelease("g10", "1n");
+})
+  
+});
 // CANVAS (RANDOM SQUARES) EXPERIMENT (NOT WORKING)
 // var box = {
 //   x: 0,
