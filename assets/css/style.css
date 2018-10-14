@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'pocket_calculatorregular';
+  src: url('../fonts/pockc___-webfont.woff2') format('woff2'),
+       url('../fonts/pockc___-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mechanicalbold_condensed';
+  src: url('../fonts/mechanicalbdcond-webfont.woff2') format('woff2'),
+       url('../fonts/mechanicalbdcond-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bitwiseregular';
+  src: url('../fonts/bitwise-webfont.woff2') format('woff2'),
+       url('../fonts/bitwise-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background: black url('/assets/images/newbg.jpg') fixed;
+  background-size: 1006px;
+
+
+}
+
+.navbar #home {
+  font-family: 'pocket_calculatorregular';
+  font-size: 35px;
+  float: left;
+}
+
+.topnav .navbar {
+  font-family: 'pocket_calculatorregular';
+  font-size: 35px;
+  color: #ffc600;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  float: right;
+  display: block;
+
+}
+.topnav .icon {
+  display: none;  
+}
