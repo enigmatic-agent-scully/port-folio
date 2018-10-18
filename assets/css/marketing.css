@@ -192,10 +192,10 @@ a.pure-button-primary {
     font-weight: bold;
     font-family: 'pocket_calculatorregular';
     color: #cb2d6f;
-    background-color: rgba(255, 255, 255, 0.741);
+    background-color: rgba(255, 255, 255, 0.571);
     border: 3px solid #cb2d6f;
     padding: .5em .6em;
-    font-weight: 100;
+    font-weight: bold;
     border-radius: 5px;
     line-height: 1em;
 }
@@ -206,6 +206,7 @@ a.pure-button-primary {
     color: white;
     letter-spacing: 0.05em;
     font-size: 30px;
+    font-weight: bold;
 }
 
 /*
