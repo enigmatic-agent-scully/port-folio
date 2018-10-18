@@ -226,9 +226,9 @@ a.pure-button-primary {
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
-    font-weight: 400;
+    font-size: 48px;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    margin: 1em 0 .5em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -246,7 +246,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: rgba(20, 160, 153, 0.687);
+    background: rgba(20, 160, 153);
     color: whitesmoke;
 }
 
