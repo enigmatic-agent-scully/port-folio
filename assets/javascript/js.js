@@ -1,12 +1,3 @@
-function myFunction() {
-  var x = document.getElementById("myTopNav");
-  if (x.className === "topnav") {
-      x.className += " responsive";
-  } else {
-      x.className = "topnav";
-  }
-}
-
 $("#submit").click(function () {
   var name = $("#name").val();
   var subject = $("#subject").val();
@@ -15,7 +6,7 @@ $("#submit").click(function () {
 
   var mailTo = `mailto:aj@ajjordan.co?subject=${subject}&body=${message}
 
-  from: ${name}`
+  from: ${name}`;
 
   $("#submit").attr("href", mailTo);
 
