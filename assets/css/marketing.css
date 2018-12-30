@@ -258,6 +258,11 @@ a.pure-button-primary {
   color: whitesmoke;
 }
 
+#aboutme {
+  background: #14a098;
+  color: whitesmoke;
+}
+
 /* This is the class used for the footer */
 .footer {
   background: #501f3a;
