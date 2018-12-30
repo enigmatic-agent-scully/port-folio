@@ -1,27 +1,27 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: 'pocket_calculatorregular';
   src: url('../fonts/pockc___-webfont.woff2') format('woff2'),
-       url('../fonts/pockc___-webfont.woff') format('woff');
+    url('../fonts/pockc___-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'mechanicalbold_condensed';
   src: url('../fonts/mechanicalbdcond-webfont.woff2') format('woff2'),
-       url('../fonts/mechanicalbdcond-webfont.woff') format('woff');
+    url('../fonts/mechanicalbdcond-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'bitwiseregular';
   src: url('../fonts/bitwise-webfont.woff2') format('woff2'),
-       url('../fonts/bitwise-webfont.woff') format('woff');
+    url('../fonts/bitwise-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,26 +32,31 @@
   font-style: normal;
 }
 
-
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
 body {
-    line-height: 1.7em;
-    color: #14A098;
-    font-size: 13px;
+  line-height: 1.7em;
+  color: #14a098;
+  font-size: 13px;
 }
 
-h1, h2, h3, h4, h5, h6, label {
-    color: #cb2d6f;
-    font-family: 'pocket_calculatorregular';
-    font-size: 150%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #cb2d6f;
+  font-family: 'pocket_calculatorregular';
+  font-size: 150%;
 }
 
 .pure-img-responsive {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /*
@@ -59,60 +64,57 @@ h1, h2, h3, h4, h5, h6, label {
  * These are some useful classes which I will need
  */
 .l-box {
-    padding: 1em;
+  padding: 1em;
 }
 
 .l-box-lrg {
-    padding: 2em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-center {
-    text-align: center;
+  text-align: center;
 }
-
-
 
 /*
  * -- PURE FORM STYLES --
  * Style the form inputs and labels
  */
 .pure-form label {
-    margin: 1em 0 0;
-    font-weight: bold;
-    font-size: 100%;
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%;
 }
 
 .pure-form input[type] {
-    border: 2px solid #ddd;
-    box-shadow: none;
-    font-size: 100%;
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  #message {
+  border: 2px solid #ddd;
+  box-shadow: none;
+  font-size: 100%;
+  width: 100%;
+  margin-bottom: 1em;
+}
+#message {
   width: 100%;
   padding: 10px 20px 200px 10px;
   display: inline-block;
-  }
+}
 /*
  * -- PURE BUTTON STYLES --
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #501f3a;
-    color: #cccccc;
-    padding: 0.5em 2em;
-    border-radius: 5px;
+  background-color: #501f3a;
+  color: #cccccc;
+  padding: 0.5em 2em;
+  border-radius: 5px;
 }
 
 a.pure-button-primary {
-    background: #cccccc;
-    color: #501f3a;
-    border-radius: 5px;
-    font-size: 120%;
+  background: #cccccc;
+  color: #501f3a;
+  border-radius: 5px;
+  font-size: 120%;
 }
-
 
 /*
  * -- MENU STYLES --
@@ -120,42 +122,42 @@ a.pure-button-primary {
  */
 
 .home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+  padding: 0.5em;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .home-menu {
-    background: #501f3a;
+  background: #501f3a;
 }
 .pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
-    border-bottom: none;
-    /* I need a higher z-index here because of the scroll-over effect. */
-    z-index: 4;
+  /* Fixed menus normally have a border at the bottom. */
+  border-bottom: none;
+  /* I need a higher z-index here because of the scroll-over effect. */
+  z-index: 4;
 }
 
 .home-menu .pure-menu-heading {
-    color: #cb2d6f;
-    text-transform: lowercase;
-    font-family: 'pocket_calculatorregular';
-    font-weight: 400;
-    font-size: 150%;
+  color: #cb2d6f;
+  text-transform: lowercase;
+  font-family: 'pocket_calculatorregular';
+  font-weight: 400;
+  font-size: 150%;
 }
 
 .home-menu .pure-menu-selected a {
-    color: white;
+  color: white;
 }
 
 .home-menu a {
-    color: #cb2d6f;
-    font-family: 'pocket_calculatorregular';
-    font-size: 120%;
+  color: #cb2d6f;
+  font-family: 'pocket_calculatorregular';
+  font-size: 120%;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #14A098;
+  background: none;
+  border: none;
+  color: #14a098;
 }
 
 /*
@@ -164,49 +166,51 @@ a.pure-button-primary {
  */
 
 .splash-container {
-
-    z-index: 1;
-    background-size: 125%;
-    overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: fixed !important;
+  z-index: 1;
+  background-size: 125%;
+  overflow: hidden;
+  /* The following styles are required for the "scroll-over" effect */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
 }
 
 .splash {
-    /* absolute center .splash within .splash-container */
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
-    text-align: center;
+  /* absolute center .splash within .splash-container */
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'pocket_calculatorregular';
-    color: #cb2d6f;
-    background-color: rgba(255, 255, 255, 0.571);
-    border: 3px solid #cb2d6f;
-    padding: .5em .6em;
-    font-weight: bold;
-    border-radius: 5px;
-    line-height: 1em;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'pocket_calculatorregular';
+  color: #cb2d6f;
+  background-color: rgba(255, 255, 255, 0.571);
+  border: 3px solid #cb2d6f;
+  padding: 0.5em 0.6em;
+  font-weight: bold;
+  border-radius: 5px;
+  line-height: 1em;
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
   font-family: 'pocket_calculatorregular';
-    color: white;
-    letter-spacing: 0.05em;
-    font-size: 30px;
-    font-weight: bold;
+  color: white;
+  letter-spacing: 0.05em;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /*
@@ -214,59 +218,58 @@ a.pure-button-primary {
  * This represents the content area (everything below the blue section)
  */
 .content-wrapper {
-    /* These styles are required for the "scroll-over" effect */
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    min-height: 12%;
-    z-index: 2;
-    background: white;
-
+  /* These styles are required for the "scroll-over" effect */
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background: white;
 }
 
 /* We want to give the content area some more padding */
 .content {
-    padding: 1em 1em 3em;
+  padding: 1em 1em 3em;
 }
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
-    font-size: 48px;
-    letter-spacing: 0.1em;
-    margin: 1em 0 .5em;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  margin: 1em 0 0.5em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: white;
+  color: white;
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #14A098;
+  color: #14a098;
 }
-    .content-subhead i {
-        margin-right: 7px;
-    }
+.content-subhead i {
+  margin-right: 7px;
+}
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: rgba(20, 160, 153);
-    color: whitesmoke;
+  background: #14a098;
+  color: whitesmoke;
 }
 
 /* This is the class used for the footer */
 .footer {
-    background: #501f3a;
-    font-family: 'pocket_calculatorregular';
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: #cb2d6f;
+  background: #501f3a;
+  font-family: 'pocket_calculatorregular';
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #cb2d6f;
 }
 a {
   text-decoration: none;
-  color: #14A098;
+  color: #14a098;
 }
 i.material-icons {
   padding: 1px, 0px, 0px, 0px;
@@ -278,43 +281,43 @@ i.material-icons {
  * of the mobile styles.
  */
 @media (min-width: 48em) {
-
-    /* We increase the body font size */
-    body {
-        font-size: 16px;
-    }
-
-    /* We can align the menu header to the left, but float the
+  /* We increase the body font size */
+  body {
+    font-size: 16px;
+  }
+  .ribbon {
+    background: #14a098;
+    color: whitesmoke;
+  }
+  /* We can align the menu header to the left, but float the
     menu items to the right. */
-    .home-menu {
-        text-align: left;
-    }
-        .home-menu ul {
-            float: right;
-        }
+  .home-menu {
+    text-align: left;
+  }
+  .home-menu ul {
+    float: right;
+  }
 
-    /* We increase the height of the splash-container */
-/*    .splash-container {
+  /* We increase the height of the splash-container */
+  /*    .splash-container {
         height: 500px;
     }*/
 
-    /* We decrease the width of the .splash, since we have more width
+  /* We decrease the width of the .splash, since we have more width
     to work with */
-    .splash {
-        width: 50%;
-        height: 50%;
-    }
+  .splash {
+    width: 50%;
+    height: 50%;
+  }
 
-    .splash-head {
-        font-size: 250%;
-    }
+  .splash-head {
+    font-size: 250%;
+  }
 
-
-    /* We remove the border-separator assigned to .l-box-lrg */
-    .l-box-lrg {
-        border: none;
-    }
-
+  /* We remove the border-separator assigned to .l-box-lrg */
+  .l-box-lrg {
+    border: none;
+  }
 }
 
 /*
@@ -323,8 +326,8 @@ i.material-icons {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
-    /* We increase the header font size even more */
-    .splash-head {
-        font-size: 300%;
-    }
+  /* We increase the header font size even more */
+  .splash-head {
+    font-size: 300%;
+  }
 }
