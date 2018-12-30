@@ -336,3 +336,10 @@ i.material-icons {
     font-size: 300%;
   }
 }
+
+@media (max-width: 960px) {
+  .ribbon {
+    background: #14a098 !important;
+    color: whitesmoke;
+  }
+}
