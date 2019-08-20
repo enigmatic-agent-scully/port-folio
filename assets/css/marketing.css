@@ -6,24 +6,24 @@
 
 @font-face {
   font-family: 'forced_squaremedium';
-  src: url('forced_square-webfont.woff2') format('woff2'),
-    url('forced_square-webfont.woff') format('woff');
+  src: url('../fonts/forced_square-webfont.woff2') format('woff2'),
+    url('../fonts/forced_square-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'gamlangdeeregular';
-  src: url('gamlangdee-webfont.woff2') format('woff2'),
-    url('gamlangdee-webfont.woff') format('woff');
+  src: url('../fonts/gamlangdee-webfont.woff2') format('woff2'),
+    url('../fonts/gamlangdee-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'giantrobotarmymedium';
-  src: url('giantrobotarmy-medium-webfont.woff2') format('woff2'),
-    url('giantrobotarmy-medium-webfont.woff') format('woff');
+  src: url('../fonts/giantrobotarmy-medium-webfont.woff2') format('woff2'),
+    url('../fonts/giantrobotarmy-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
