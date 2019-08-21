@@ -45,7 +45,7 @@ h5,
 h6,
 label {
   color: #cb2d6f;
-  font-family: 'gamlangdeeregular';
+  font-family: 'forced_squaremedium';
   font-size: 150%;
 }
 
@@ -134,7 +134,7 @@ a.pure-button-primary {
 .home-menu .pure-menu-heading {
   color: #cb2d6f;
   text-transform: lowercase;
-  font-family: 'gamlangdeeregular';
+  font-family: 'forced_squaremedium';
   font-weight: 400;
   font-size: 150%;
 }
@@ -145,7 +145,7 @@ a.pure-button-primary {
 
 .home-menu a {
   color: #cb2d6f;
-  font-family: 'gamlangdeeregular';
+  font-family: 'forced_squaremedium';
   font-size: 120%;
 }
 .home-menu li a:hover,
@@ -189,7 +189,7 @@ a.pure-button-primary {
 .splash-head {
   font-size: 40px;
   font-weight: bold;
-  font-family: 'gamlangdeeregular';
+  font-family: 'forced_squaremedium';
   color: #cb2d6f;
   background-color: rgba(255, 255, 255, 0.571);
   border: 3px solid #cb2d6f;
@@ -201,7 +201,7 @@ a.pure-button-primary {
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-  font-family: 'gamlangdeeregular';
+  font-family: 'forced_squaremedium';
   color: white;
   letter-spacing: 0.05em;
   font-size: 30px;
@@ -261,7 +261,7 @@ a.pure-button-primary {
 /* This is the class used for the footer */
 .footer {
   background: #501f3a;
-  font-family: 'gamlangdeeregular';
+  font-family: 'forced_squaremedium';
   position: fixed;
   bottom: 0;
   width: 100%;
